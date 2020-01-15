@@ -1,0 +1,228 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="#ffc0c0" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Current Person: "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/nameField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/prevButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="prevPressed"
+            android:text="prev"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="nextPressed"
+            android:text="next"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="#c0c0ff" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other Person: "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/nameOtherField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/saveAsChildButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="addAsChildPressed"
+            android:text="add as child"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/prevOtherButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="prevOtherPressed"
+            android:text="prev"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/nextOtherButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="nextOtherPressed"
+            android:text="next"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/rbParents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="parents"
+                android:textSize="30sp" />
+
+            <RadioButton
+                android:id="@+id/rbChildren"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="children"
+                android:textSize="30sp" />
+
+            <RadioButton
+                android:id="@+id/rbGrandchildren"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="grandchildren"
+                android:textSize="30sp" />
+
+            <RadioButton
+                android:id="@+id/rbGrandparents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="grandparents"
+                android:textSize="30sp" />
+
+            <RadioButton
+                android:id="@+id/rbAncestors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ancestors"
+                android:textSize="30sp" />
+
+            <RadioButton
+                android:id="@+id/rbDescendants"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="descendants"
+                android:textSize="30sp" />
+
+            <RadioButton
+                android:id="@+id/rbAunts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="aunts"
+                android:textSize="30sp" />
+
+            <RadioButton
+                android:id="@+id/rbUncles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="uncles"
+                android:textSize="30sp" />
+
+            <RadioButton
+                android:id="@+id/rbNieces"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nieces"
+                android:textSize="30sp" />
+
+            <RadioButton
+                android:id="@+id/rbNephews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nephews"
+                android:textSize="30sp" />
+
+            <RadioButton
+                android:id="@+id/rbCousins"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cousins"
+                android:textSize="30sp" />
+
+            <RadioButton
+                android:id="@+id/rb2ndCousins"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2nd cousins"
+                android:textSize="30sp" />
+        </RadioGroup>
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#b0ffb0" >
+
+            <EditText
+                android:id="@+id/resultsListField"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:inputType="textMultiLine|textNoSuggestions"
+                android:minLines="1"
+                android:textSize="30sp">
+
+                <requestFocus />
+            </EditText>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

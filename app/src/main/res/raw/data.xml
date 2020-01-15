@@ -1,0 +1,368 @@
+<FamilyInfo>
+    <Man>Henry Wallace</Man>
+    <Man>Arthur Wallace</Man>
+    <Man>Edward Wallace</Man>
+    <Man>Matthew Wallace</Man>
+    <Man>Sarah Wallace</Man>
+    <Woman>Alice Wallace</Woman>
+    <Man>Emil Harper</Man>
+    <Woman>Bernice Harper</Woman>
+    <Man>John Wallace</Man>
+    <Woman>Beth Wallace</Woman>
+    <Man>Jacob Foster</Man>
+    <Woman>Mary Foster</Woman>
+    <Man>Roger Wallace</Man>
+    <Man>Kenny Wallace</Man>
+    <Man>Sean Wallace</Man>
+    <Man>Ralph Wallace</Man>
+    <Man>Kent Wallace</Man>
+    <Man>Kurt Wallace</Man>
+    <Man>Kyle Wallace</Man>
+    <Man>Philip Wallace</Man>
+    <Man>Nathan Wallace</Man>
+    <Man>Timothy Wallace</Man>
+    <Man>Anders Hunt</Man>
+    <Man>Erik Hunt</Man>
+    <Man>Brian Oliver</Man>
+    <Man>Peter Oliver</Man>
+    <Woman>Shirley Wallace</Woman>
+    <Woman>Sonja Wallace</Woman>
+    <Woman>Sylvia Parker</Woman>
+    <Woman>Mary Oliver</Woman>
+    <Woman>Mary Wallace</Woman>
+    <Woman>Marta Wallace</Woman>
+    <Woman>Ellie Wallace</Woman>
+    <Woman>Annika Parker</Woman>
+    <Woman>Karin Oliver</Woman>
+    <Woman>Kimberley Burger</Woman>
+    <Man>Albert Dodge</Man>
+    <Man>Roger Allman</Man>
+    <Man>Mark Allman</Man>
+    <Man>Daniel Allman</Man>
+    <Man>Richard Harper</Man>
+    <Man>Kris Harper</Man>
+    <Man>Lee Harper, Sr.</Man>
+    <Man>Lee Harper, Jr.</Man>
+    <Man>Peter J. Harper</Man>
+    <Man>Peter H. Harper</Man>
+    <Woman>Colleen Allman</Woman>
+    <Woman>Katie Allman</Woman>
+    <Woman>Esther Dodge</Woman>
+    <Woman>Elizabeth Allman</Woman>
+    <Woman>Jean Wallace</Woman>
+    <Woman>Ruth Allman</Woman>
+    <Woman>Pat Harper</Woman>
+    <Woman>Carrie Harper</Woman>
+    <Woman>Sara Harper</Woman>
+    <Woman>Erna Harper</Woman>
+    <Woman>Belinda Zeigler</Woman>
+    <Woman>Anna Kramer</Woman>
+    <Relation>
+        <Parent>Mark Allman</Parent>
+        <Child>Katie Allman</Child>
+    </Relation>
+    <Relation>
+        <Parent>Mark Allman</Parent>
+        <Child>Daniel Allman</Child>
+    </Relation>
+    <Relation>
+        <Parent>Colleen Allman</Parent>
+        <Child>Katie Allman</Child>
+    </Relation>
+    <Relation>
+        <Parent>Colleen Allman</Parent>
+        <Child>Daniel Allman</Child>
+    </Relation>
+    <Relation>
+        <Parent>Lee Harper, Sr.</Parent>
+        <Child>Lee Harper, Jr.</Child>
+    </Relation>
+    <Relation>
+        <Parent>Lee Harper, Sr.</Parent>
+        <Child>Belinda Zeigler</Child>
+    </Relation>
+    <Relation>
+        <Parent>Lee Harper, Sr.</Parent>
+        <Child>Anna Kramer</Child>
+    </Relation>
+    <Relation>
+        <Parent>Lee Harper, Sr.</Parent>
+        <Child>Peter H. Harper</Child>
+    </Relation>
+    <Relation>
+        <Parent>Erna Harper</Parent>
+        <Child>Lee Harper, Jr.</Child>
+    </Relation>
+    <Relation>
+        <Parent>Erna Harper</Parent>
+        <Child>Belinda Zeigler</Child>
+    </Relation>
+    <Relation>
+        <Parent>Erna Harper</Parent>
+        <Child>Anna Kramer</Child>
+    </Relation>
+    <Relation>
+        <Parent>Erna Harper</Parent>
+        <Child>Peter H. Harper</Child>
+    </Relation>
+    <Relation>
+        <Parent>Richard Harper</Parent>
+        <Child>Carrie Harper</Child>
+    </Relation>
+    <Relation>
+        <Parent>Richard Harper</Parent>
+        <Child>Kris Harper</Child>
+    </Relation>
+    <Relation>
+        <Parent>Richard Harper</Parent>
+        <Child>Sara Harper</Child>
+    </Relation>
+    <Relation>
+        <Parent>Pat Harper</Parent>
+        <Child>Carrie Harper</Child>
+    </Relation>
+    <Relation>
+        <Parent>Pat Harper</Parent>
+        <Child>Kris Harper</Child>
+    </Relation>
+    <Relation>
+        <Parent>Pat Harper</Parent>
+        <Child>Sara Harper</Child>
+    </Relation>
+    <Relation>
+        <Parent>Roger Allman</Parent>
+        <Child>Jean Wallace</Child>
+    </Relation>
+    <Relation>
+        <Parent>Roger Allman</Parent>
+        <Child>Ruth Allman</Child>
+    </Relation>
+    <Relation>
+        <Parent>Roger Allman</Parent>
+        <Child>Mark Allman</Child>
+    </Relation>
+    <Relation>
+        <Parent>Elizabeth Allman</Parent>
+        <Child>Jean Wallace</Child>
+    </Relation>
+    <Relation>
+        <Parent>Elizabeth Allman</Parent>
+        <Child>Ruth Allman</Child>
+    </Relation>
+    <Relation>
+        <Parent>Elizabeth Allman</Parent>
+        <Child>Mark Allman</Child>
+    </Relation>
+    <Relation>
+        <Parent>Esther Dodge</Parent>
+        <Child>Elizabeth Allman</Child>
+    </Relation>
+    <Relation>
+        <Parent>Albert Dodge</Parent>
+        <Child>Elizabeth Allman</Child>
+    </Relation>
+    <Relation>
+        <Parent>Henry Wallace</Parent>
+        <Child>Roger Wallace</Child>
+    </Relation>
+    <Relation>
+        <Parent>Henry Wallace</Parent>
+        <Child>Kenny Wallace</Child>
+    </Relation>
+    <Relation>
+        <Parent>Alice Wallace</Parent>
+        <Child>Roger Wallace</Child>
+    </Relation>
+    <Relation>
+        <Parent>Alice Wallace</Parent>
+        <Child>Kenny Wallace</Child>
+    </Relation>
+    <Relation>
+        <Parent>Emil Harper</Parent>
+        <Child>Lee Harper, Sr.</Child>
+    </Relation>
+    <Relation>
+        <Parent>Emil Harper</Parent>
+        <Child>Shirley Wallace</Child>
+    </Relation>
+    <Relation>
+        <Parent>Emil Harper</Parent>
+        <Child>Richard Harper</Child>
+    </Relation>
+    <Relation>
+        <Parent>Emil Harper</Parent>
+        <Child>Peter J. Harper</Child>
+    </Relation>
+    <Relation>
+        <Parent>Bernice Harper</Parent>
+        <Child>Lee Harper, Sr.</Child>
+    </Relation>
+    <Relation>
+        <Parent>Bernice Harper</Parent>
+        <Child>Shirley Wallace</Child>
+    </Relation>
+    <Relation>
+        <Parent>Bernice Harper</Parent>
+        <Child>Richard Harper</Child>
+    </Relation>
+    <Relation>
+        <Parent>Bernice Harper</Parent>
+        <Child>Peter J. Harper</Child>
+    </Relation>
+    <Relation>
+        <Parent>John Wallace</Parent>
+        <Child>Henry Wallace</Child>
+    </Relation>
+    <Relation>
+        <Parent>John Wallace</Parent>
+        <Child>Arthur Wallace</Child>
+    </Relation>
+    <Relation>
+        <Parent>Beth Wallace</Parent>
+        <Child>Henry Wallace</Child>
+    </Relation>
+    <Relation>
+        <Parent>Beth Wallace</Parent>
+        <Child>Arthur Wallace</Child>
+    </Relation>
+    <Relation>
+        <Parent>Arthur Wallace</Parent>
+        <Child>Edward Wallace</Child>
+    </Relation>
+    <Relation>
+        <Parent>Edward Wallace</Parent>
+        <Child>Sarah Wallace</Child>
+    </Relation>
+    <Relation>
+        <Parent>Edward Wallace</Parent>
+        <Child>Matthew Wallace</Child>
+    </Relation>
+    <Relation>
+        <Parent>Jacob Foster</Parent>
+        <Child>Bernice Harper</Child>
+    </Relation>
+    <Relation>
+        <Parent>Mary Foster</Parent>
+        <Child>Bernice Harper</Child>
+    </Relation>
+    <Relation>
+        <Parent>Roger Wallace</Parent>
+        <Child>Sean Wallace</Child>
+    </Relation>
+    <Relation>
+        <Parent>Roger Wallace</Parent>
+        <Child>Ralph Wallace</Child>
+    </Relation>
+    <Relation>
+        <Parent>Roger Wallace</Parent>
+        <Child>Sonja Wallace</Child>
+    </Relation>
+    <Relation>
+        <Parent>Roger Wallace</Parent>
+        <Child>Sylvia Parker</Child>
+    </Relation>
+    <Relation>
+        <Parent>Roger Wallace</Parent>
+        <Child>Mary Oliver</Child>
+    </Relation>
+    <Relation>
+        <Parent>Shirley Wallace</Parent>
+        <Child>Sean Wallace</Child>
+    </Relation>
+    <Relation>
+        <Parent>Shirley Wallace</Parent>
+        <Child>Ralph Wallace</Child>
+    </Relation>
+    <Relation>
+        <Parent>Shirley Wallace</Parent>
+        <Child>Sonja Wallace</Child>
+    </Relation>
+    <Relation>
+        <Parent>Shirley Wallace</Parent>
+        <Child>Sylvia Parker</Child>
+    </Relation>
+    <Relation>
+        <Parent>Shirley Wallace</Parent>
+        <Child>Mary Oliver</Child>
+    </Relation>
+    <Relation>
+        <Parent>Kenny Wallace</Parent>
+        <Child>Kent Wallace</Child>
+    </Relation>
+    <Relation>
+        <Parent>Kenny Wallace</Parent>
+        <Child>Kimberley Burger</Child>
+    </Relation>
+    <Relation>
+        <Parent>Kenny Wallace</Parent>
+        <Child>Kurt Wallace</Child>
+    </Relation>
+    <Relation>
+        <Parent>Kenny Wallace</Parent>
+        <Child>Kyle Wallace</Child>
+    </Relation>
+    <Relation>
+        <Parent>Sonja Wallace</Parent>
+        <Child>Anders Hunt</Child>
+    </Relation>
+    <Relation>
+        <Parent>Sonja Wallace</Parent>
+        <Child>Erik Hunt</Child>
+    </Relation>
+    <Relation>
+        <Parent>Mary Oliver</Parent>
+        <Child>Karin Oliver</Child>
+    </Relation>
+    <Relation>
+        <Parent>Mary Oliver</Parent>
+        <Child>Peter Oliver</Child>
+    </Relation>
+    <Relation>
+        <Parent>Brian Oliver</Parent>
+        <Child>Karin Oliver</Child>
+    </Relation>
+    <Relation>
+        <Parent>Brian Oliver</Parent>
+        <Child>Peter Oliver</Child>
+    </Relation>
+    <Relation>
+        <Parent>Sean Wallace</Parent>
+        <Child>Philip Wallace</Child>
+    </Relation>
+    <Relation>
+        <Parent>Sean Wallace</Parent>
+        <Child>Nathan Wallace</Child>
+    </Relation>
+    <Relation>
+        <Parent>Sean Wallace</Parent>
+        <Child>Timothy Wallace</Child>
+    </Relation>
+    <Relation>
+        <Parent>Jean Wallace</Parent>
+        <Child>Philip Wallace</Child>
+    </Relation>
+    <Relation>
+        <Parent>Jean Wallace</Parent>
+        <Child>Nathan Wallace</Child>
+    </Relation>
+    <Relation>
+        <Parent>Jean Wallace</Parent>
+        <Child>Timothy Wallace</Child>
+    </Relation>
+    <Relation>
+        <Parent>Sylvia Parker</Parent>
+        <Child>Annika Parker</Child>
+    </Relation>
+    <Relation>
+        <Parent>Ralph Wallace</Parent>
+        <Child>Mary Wallace</Child>
+    </Relation>
+    <Relation>
+         <Parent>Ralph Wallace</Parent>
+         <Child>Marta Wallace</Child>
+    </Relation>
+    <Relation>
+        <Parent>Ralph Wallace</Parent>
+        <Child>Ellie Wallace</Child>
+    </Relation>
+</FamilyInfo>
