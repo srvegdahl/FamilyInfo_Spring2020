@@ -252,7 +252,6 @@ public class FamilyInfoActivity extends Activity {
 
         // list returned by parser
         ArrayList<String[]> data = new ArrayList<String[]>();
-        ;
 
         try {
             // parse the family info; close the file and return the resulting

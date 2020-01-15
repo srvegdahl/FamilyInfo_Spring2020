@@ -1,15 +1,25 @@
 package edu.up.vegdahl.familyinfo.familyinfo;
 
+import android.os.Environment;
 import android.util.Log;
 
+import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.HashSet;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerConfigurationException;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
@@ -27,12 +37,9 @@ public class XmlFamilyParser {
 	/**
 	 * creates an ArrayList of Person object, parsing XML from an InputStream
 	 *
-	 * @param is
-	 * 		the input stream
-	 * @return
-	 * 		the array-list of family object
-	 * @throws XmlFamilyParseException
-	 * 		whenever it is determined that the format of the XML is bad
+	 * @param is the input stream
+	 * @return the array-list of family object
+	 * @throws XmlFamilyParseException whenever it is determined that the format of the XML is bad
 	 */
 	public static ArrayList<String[]> parseFamilyInfoList(InputStream is)
 			throws XmlFamilyParseException {
@@ -50,6 +57,24 @@ public class XmlFamilyParser {
 			throw new XmlFamilyParseException("SAX problem");
 		} catch (IOException e) {
 			throw new XmlFamilyParseException("IO exception");
+		}
+
+		// example of how to write out the document
+		TransformerFactory transformerFactory = TransformerFactory.newInstance();
+		try {
+			Transformer transformer = transformerFactory.newTransformer();
+			DOMSource source = new DOMSource(doc);
+			String root = Environment.getExternalStorageDirectory().toString();
+			File dir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
+			FileWriter writer = new FileWriter(new File(dir, "test.xml"));
+			StreamResult result = new StreamResult(writer);
+			transformer.transform(source, result);
+		}
+		catch (TransformerConfigurationException tcx) {
+		}
+		catch (TransformerException tx) {
+		}
+		catch (IOException iox) {
 		}
 
 		// get the top document element; normalize it
